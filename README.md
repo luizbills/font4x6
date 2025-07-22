@@ -2,7 +2,7 @@
 
 A simple and tiny 4x6 bitmap font.
 
-[font4x6_basic.h](font4x6_basic.h) contains unicode points U+0000 - U+007F
+[font4x6_basic.h](font4x6_basic.h) contains unicode points `U+0000` - `U+007F`.
 
 ![](images/font.png)
 
