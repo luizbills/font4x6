@@ -50,7 +50,7 @@ This repository only exists thanks to:
 
 ## Projects using this font
 
-https://github.com/litecanvas/plugin-pixel-font - a plugin to display retro pixel fonts in the Litecanvas engine.
+- https://github.com/litecanvas/plugin-pixel-font - a plugin to display retro pixel fonts in the Litecanvas engine.
 
 ## LICENSE
 
