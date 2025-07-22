@@ -48,6 +48,10 @@ This repository only exists thanks to:
 - https://github.com/dhepper/font8x8
 - https://alasseearfalas.itch.io/another-tiny-pixel-font-mono-3x5
 
+## Projects using this font
+
+https://github.com/litecanvas/plugin-pixel-font - a plugin to display retro pixel fonts in the Litecanvas engine.
+
 ## LICENSE
 
 This repository is (un)licensed under [Public Domain](LICENSE), so take it and do whatever you want with it. Credits are not required but much appreciated.
