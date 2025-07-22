@@ -8,7 +8,7 @@ A simple and tiny 4x6 bitmap font.
 
 ![](images/showcase.png)
 
-> Both images have been scaled by 400% to improve visualization.
+> That second image have been scaled by 400% to improve visualization.
 
 ## Encoding
 
