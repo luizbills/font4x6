@@ -4,6 +4,12 @@ A simple and tiny 4x6 bitmap font.
 
 [font4x6_basic.h](font4x6_basic.h) contains unicode points U+0000 - U+007F
 
+![](images/font.png)
+
+![](images/showcase.png)
+
+> Both images have been scaled by 400% to improve visualization.
+
 ## Encoding
 
 Every character in the font is encoded row-wise in 6 bytes.
