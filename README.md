@@ -33,7 +33,7 @@ To visualize the font, a simple renderer is included in [`render.c`](render.c)
 
 ```sh
 $ gcc render.c -o render
-$ ./render 65
+$ ./render A
  X
 X X
 XXX
