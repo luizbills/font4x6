@@ -12,19 +12,19 @@ A simple and tiny 4x6 bitmap font.
 
 ## Encoding
 
-Every character in the font is encoded row-wise in 6 bytes.
+Every character in the font is encoded in 3 bytes.
 
-The least significant bit of each byte corresponds to the first pixel in row.
+Each byte represents 2 rows of a 4x6 grid and the least significant bit of each nibble corresponds to the first pixel in row.
 
-E.g.: The character `'A'` (0x41 / 65) is encoded as `{ 0x02, 0x05, 0x07, 0x05, 0x05, 0x00 }`
+E.g.: The character `'A'` (0x41 / 65) is encoded as `{ 0x25, 0x75, 0x50 }`
 
 ```
-0x02 => 0000 0010 => .X.. ....
-0x05 => 0000 0101 => X.X. ....
-0x07 => 0000 0111 => XXX. ....
-0x05 => 0000 0101 => X.X. ....
-0x05 => 0000 0101 => X.X. ....
-0x00 => 0000 0000 => .... ....
+0x25 => 0010 1010 => .X..
+                     X.X.
+0x75 => 0000 0111 => XXX.
+                     X.X.
+0x05 => 0000 0101 => X.X.
+                     ....
 ```
 
 ## Renderer
