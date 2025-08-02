@@ -11,7 +11,7 @@
 
 #include <stdint.h>
 
-// Contains an 8x8 font map for unicode points U+0000 - U+007F (basic latin)
+// Contains unicode points U+0000 - U+007F (basic latin)
 uint8_t font4x6_basic[128][3] = {
     { 0x00, 0x00, 0x00 }, // U+0000 (null)
     { 0x00, 0x00, 0x00 }, // U+0001
