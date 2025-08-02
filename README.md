@@ -19,11 +19,11 @@ Each byte represents 2 rows of a 4x6 grid and the least significant bit of each 
 E.g.: The character `'A'` (0x41 / 65) is encoded as `{ 0x25, 0x75, 0x50 }`
 
 ```
-0x25 => 0010 1010 => .X..
+0x25 => 0010 0101 => .X..
                      X.X.
-0x75 => 0000 0111 => XXX.
+0x75 => 0111 0101 => XXX.
                      X.X.
-0x05 => 0000 0101 => X.X.
+0x50 => 0101 0000 => X.X.
                      ....
 ```
 
